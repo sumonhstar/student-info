@@ -1,0 +1,215 @@
+
+@media screen and (max-width:991.95px){
+    .navMenu{
+        position: fixed;
+        width: 80%;
+        height: 100vh;
+        top:0;
+        left:-80%;
+        background-color: #FBE3DA;
+        z-index: 55;
+        transition: .5s;
+    }
+    .navMenu.active{
+        left:0;
+    }
+    .navMenu ul{
+        flex-direction: column;
+        gap:20px;
+        padding-top: 80px;
+    }
+    .menu-close-btn{
+        display: block;
+    }
+    .header{
+        display: none;
+    }
+    .navbar{
+        justify-content: center;
+        padding-block: 10px;
+    }
+    .open-menu-btn{
+        display: block;
+    }
+    .browse-course{
+        width:11rem;
+        padding: 10px;
+    }
+    .browse-course p{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:767.95px){
+    .main-container{
+        padding-inline: 20px;
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    .home-section{
+        flex-direction: column;
+        text-align: center;
+    }
+    .home-title-section,
+    .home-banner-section{
+        flex-basis: 100%;
+        width: 100%;
+        max-width: 100%;
+    }
+    .home-title{
+        margin-bottom: 20px;
+        justify-content: center;
+    }
+    .home-sub-title h2,
+    .home-sub-title h2 span{
+        font-size: 28px;
+        line-height: 42px;
+    }
+    .home-description{
+        font-size: 13px;
+        text-align: center;
+        margin-inline: auto;
+    }
+    .home-button{
+        justify-content: center;
+    }
+    .browse-button,
+    .seminar-button{
+        width:125px
+}
+    .browse-button p,
+    .seminar-button p{
+        font-size: 10px;
+    }
+    .home-iso{
+        margin: auto;
+    }
+    .home-iso p{
+        text-align: left;
+        margin-left: 6px;
+    }
+    .home-banner-section{
+        margin-top: 30px;
+        max-width: 350px !important;
+    }
+
+/* ===student-info====== */
+.student-info-content{
+    flex-direction: column;
+    padding-inline: 20px;
+    justify-content: center;
+}
+.student-info-txt{
+    width: 100%;
+}
+.student-info-txt h4{
+    justify-content: center;
+}
+.student-info-txt h4 p{
+    font-size: 14px;
+    max-width:200px;
+}
+.student-info-txt h4 span{
+    font-size: 12px;
+    max-width: 150px;
+}
+.student-info-img{
+    margin-top: 20px;
+    width: 160px;
+    height: 220px;
+  }
+  .footer-down{
+    flex-direction: column;
+    justify-content: center;
+    gap:20px;
+    text-align: center;
+  }
+  .footer-middle p,p span{
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width:768px) and (max-width:991.95px){
+    .main-container{
+        padding-inline: 50px;
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    .home-section{
+        justify-content: space-between;
+    }
+    .home-banner-section{
+        flex-basis: 55%;
+    }
+    .home-title{
+        margin-bottom: 20px;
+        justify-content: center;
+    }
+    .home-sub-title h2,
+    .home-sub-title h2 span{
+        font-size: 26px;
+        line-height: 42px;
+    }
+    .home-description{
+        font-size: 13px;
+    }
+    .home-button{
+        justify-content: center;
+    }
+    .browse-button,
+    .seminar-button{
+        width:125px
+}
+    .browse-button p,
+    .seminar-button p{
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1350px){
+    .main-container,
+    .header{
+        padding-inline: 50px;
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    .navbar{
+        justify-content: space-between !important;
+    }
+    .navbar .logo{
+        flex-basis: 15%;
+    }
+    .navbar .navMenu{
+        flex-basis: 85%;
+    }
+    .navbar .navMenu ul{
+        justify-content: flex-end;
+    }
+    ul li a{
+        font-size: 14px
+    }
+    .browse-course{
+        width:10rem;
+    }
+    .browse-course p{
+        font-size: 14px;
+    }
+    .home-section{
+        justify-content: space-between;
+    }
+    .home-banner-section{
+        flex-basis: 55%;
+    }
+    .home-title{
+        margin-bottom: 20px;
+    }
+    .home-sub-title h2,
+    .home-sub-title h2 span{
+        font-size: 35px;
+        line-height: 42px;
+    }
+    .home-description{
+        font-size: 13px;
+    }
+
+}
